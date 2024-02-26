@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50vw;
+    width: 20vw;
     border: 2px solid #ccc;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra */
 }
 
 .user h2 {
@@ -20,4 +21,10 @@
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     margin-bottom: 5px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
